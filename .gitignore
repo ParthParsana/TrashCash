@@ -1,0 +1,16 @@
+# Dependency folders
+node_modules/
+.cache/
+
+# System files
+.DS_Store
+
+# Logs
+*.log
+
+# Git pack files
+*.pack
+
+# Build files (optional)
+dist/
+build/

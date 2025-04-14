@@ -1,0 +1,50 @@
+.App {
+       display: flex;
+       flex-direction: column;
+       width: 98.7%;
+       height: 100vh;
+}
+
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 600px 25px 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.20);
+}
+
+.AppFooter {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  z-index: 1000; /* Ensures the footer stays above other content */
+}
+.AppRoutes{
+  
+}
+
+.SideMenuAndPageContent{
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.SideMenu{
+  
+}
+.PageContent{
+
+  padding-left: 10px;
+  padding-top: 0px;
+  
+}
+
+
+
+
